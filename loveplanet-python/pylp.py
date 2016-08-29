@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import requests
-#import parser
+import parser
 import sys
 import re
 

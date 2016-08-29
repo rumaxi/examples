@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Server administration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+<div class="row"></div>
+<div class="row">
+<div class="span12 offset1">
+	 <h2><small>AVANGARD.RU ADMINISTRATION TOOL</small></h2>
+
+	<div class="navbar navbar-static">
+	    <div class="navbar-inner">
+        	<a href="http://admin.avangard.ru/" class="brand">Home</a>
+        <ul role="navigation" class="nav">
+	    <li class="dropdown ">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">AVANGARD.RU<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+            		<li><a href="http://admin.avangard.ru/sync_avangard_all.sh">Sync/delete /RUS and Sync /</a></li>
+            		<li><a href="http://admin.avangard.ru/sync_avangard_rus.sh">Sync/delete /RUS</a></li>
+            		<li><a href="http://admin.avangard.ru/sync_avangard.sh">Sync /</a></li>
+		</ul>
+		</li>
+            <li><a href="http://admin.avangard.ru/restart_memcached.sh">Clear cache</a></li>
+            <li><a href="http://admin.avangard.ru/sync_demo.sh">Sync DEMO.AVANGARD.RU</a></li>
+            <li><a href="http://admin.avangard.ru/sync_agro.sh">Sync AVANGARD-AGRO.RU</a></li>
+            <li><a href="http://admin.avangard.ru/sync_bin.sh">Sync BIN</a></li>
+
+<!--            <li><a href="http://admin.avangard.ru/sync_corporate.sh">Sync CORPORATE.AVANGARD.RU</a></li>
+-->
+	    <li class="dropdown ">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Databases <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+		 <li><a href="http://admin.avangard.ru/switch_db_21.sh">Switch to Production Database MASTER</a></li>
+		 <li><a href="http://admin.avangard.ru/switch_db_23.sh">Switch to Production Database SLAVE</a></li>
+		 <li><a href="http://admin.avangard.ru/switch_db_27.sh">Switch to BACKUP Database</a></li>
+		</ul>
+		</li>
+
+	
+	</ul>
+		
+
+	</div>
+         </div>
+<code>	<font size="2" color="red">Всегда дожидайся окончания выполнения команды и вывода результата ! Не жми на кнопку дважды !</font><br></code><br>
+	<code>

@@ -16,6 +16,7 @@ Recognizes chess board on screen with CV2 lib, generates FEN notation, feeds it 
 * loveplanet-python — dating site parser in Python
 
 Hobby: collect dating site forms to MySQL table. Uses Peewee as ORM and Requsts as HTTP lib.
+Article (in Russian): https://geektimes.ru/post/110106/
 
 * loveplanet-groovy — dating site parser in Groovy
 

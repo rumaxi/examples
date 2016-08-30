@@ -26,14 +26,8 @@ url = { 'test'  :   'http://jsonplaceholder.typicode.com/posts',
 
 '''
 
-
-
-
-
-
 UrlTag = { 'topTracks': 'http://ws.audioscrobbler.com/2.0/?method=tag.gettoptracks&format=json' # &tag=disco&api_key=cbcdba24cc747a9b489c313ca3e05787&
         }
-
 
 
 def getTopTracksByTag (tag):

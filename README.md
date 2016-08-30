@@ -30,7 +30,7 @@ Helper for remote scanning. Reverse engineered abandoned Delphi tool. Written wi
 
 Bootstrap styled buttons, executing bash scripts via cgi.
 
-* youtube-lastfm-webplayer — uses lastfm and youtube api to play random music on web page 
+* youtube-lastfm-webplayer — uses lastfm and youtube API to play random music on web page 
 
 Plays some music clips on YouTube finding them by tag on Last.FM. Uses Flask web framework, REST API and Redis.
 Demo available on www.rumaxi.net (my homepage).

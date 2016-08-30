@@ -15,8 +15,6 @@ REDIS DATABASES:
 
 _TopTracksByTagDb   = redis.Redis(host='localhost', port=6379, db = 0)
 _YoutubeVideoDb     = redis.Redis(host='localhost', port=6379, db = 1)
-#_TopTracksByTagSize = 50 # MAGIC  # NO FUCKING MAGIC
-
 
 def getTopTracksByTag (tag):
     cacheSize = _TopTracksByTagDb.llen(tag)

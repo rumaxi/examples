@@ -14,8 +14,8 @@ price_regex     = 'rur">([0-9 ]*)&#160'
 #model='https://moscow.auto.ru/cars/renault/megane/all/'
 #model='https://moscow.auto.ru/cars/audi/q7/all/'
 #model='https://moscow.auto.ru/cars/volkswagen/touareg/all/'
-#model='https://moscow.auto.ru/cars/bmw/5er/all/'
-model='https://moscow.auto.ru/cars/renault/logan/all/'
+#model='https://moscow.auto.ru/cars/renault/logan/all/'
+model='https://moscow.auto.ru/cars/bmw/5er/all/'
 
 
 
@@ -54,38 +54,3 @@ for year in range (2005,2015):
             print (mileage)
             print (price)
             db.Auto.create(price=price, mileage = mileage, year = year)
-
-
-'''
-
-page = r.get(link)
-text = page.text
-
-
-with open('test','w') as f:
-    f.write(page.text)
-
-pages=len(re.findall (paginator_regex, text))
-
-print (pages)
-
-
-cards = re.findall (item_links_regex, text)
-for card in cards:
-    print (card)
-
-
-
-item = r.get ('https://'+cards[0])
-item.encoding='utf-8'
-with open('test2','w') as f:
-    f.write (item.text)
-item_text = item.text
-
-
-mile = re.findall(mileage_regex, item_text, re.UNICODE)
-
-
-print (mile)
-
-'''
